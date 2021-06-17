@@ -1,0 +1,922 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black ;
+    opacity: 0.9;
+    display: block;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.8);
+    margin-bottom: 14px;
+}
+
+.main_principal{
+    width: 100%;  
+}
+
+.fondo_pag{
+    width: 100%;
+    height: 450px;
+    background-image: url(../Imagenes_de_diseño/fondo1.png); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    position: relative;  
+}
+
+
+.titulo_y_menu{
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    left: 37.5%;  
+}
+
+.div_titulo{
+        width: 350px;
+        position: relative;
+
+}
+
+.imagen_titulo{
+        width: 350px;
+
+}
+
+.botones{
+    border: 1px solid rgb(255, 255, 255, 0.7);
+    width: 180px;
+    height: 55px;
+    margin: 35px;
+    position: relative;
+    left: 11%;
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 8px 8px 14px 8px;
+}
+
+.sombra{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.5); 
+    color: rgb(255, 255, 255, 0.9); 
+    font-size: 14px;
+    font-family: cursive; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: scale(0);
+    transition: .2s ease;
+}
+
+.botones:hover .sombra{
+    transform: scale(1);
+}
+
+.botones img{
+    width: 100%;
+    height: 100%;
+}
+
+.linea_inferior{
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.8);
+    height: 3px;
+}
+
+.footer_principal{
+    width:100%;
+    height: 80px;    
+}
+
+/* Pagina nuestros recorridos */
+
+.header{
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+}
+
+.section_header{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 14px;
+    
+}
+.imagen_titulo_header{
+    width: 200px;
+}
+
+.menu_recorridos{
+    width: 100%;  
+}
+
+.menu_recorridos div{
+    display: inline-block; 
+    font-family: 'Caveat', cursive;
+}
+
+.logos{
+    width: 40px;
+    position: relative;
+    top: 13px;
+    padding-right: 4px;
+}
+
+
+li {
+    color: white;
+    font-size: 25px;
+}
+
+.cundinamarca{
+    width: 460px;
+}
+.menu_recorridos_imagen{
+
+    width: 600px;
+    height: 435px;
+    position: relative;
+    left: 165px;
+    top: 5px;
+}
+
+.menu_recorridos_lista{
+
+    width: 300px; 
+    position: relative;
+    bottom: 86px;
+    left: 200px;
+}
+
+.menu_recorridos_lista2{
+    
+    width: 300px; 
+    position: relative;
+    bottom: 295px;
+    left: 90px ;
+}
+
+li{
+    list-style-type: none;
+}
+
+.menu_recorridos_lista_il{
+    padding: 4px;
+
+}
+
+.menu_recorridos_lista_il:hover{ 
+    transition: 0.3s;
+    opacity: 0.8; 
+    color: rgb(255, 174, 68);
+    cursor:pointer;
+}
+
+/* Pagina nuestros recorridos _ Contenido  */
+
+.section_descripcion{
+    width: 1030px;
+    height: 4080px;
+    margin-left: 150px;
+    margin-right: 125px;
+}
+
+.descripcion{
+    border: 7px solid rgba(3, 3, 3, 0.5); 
+    margin: 5px;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    font-family: 'Caveat', cursive;
+    color: white;
+    background-color: rgba(32, 32, 32, 0.5);
+
+}
+
+p{
+    width: 480px;
+}
+
+#caja1{
+    float: left;
+}
+
+.descripcion_logomona{
+    width: 100px;
+}
+
+.logomona{
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion_imagenesMona{
+    position: relative;
+    left: 40px;
+    width: 440px;
+    height: 350px;
+}
+
+.imagenMona_img1m{
+    position: absolute;
+    width: 200px;
+}
+
+.img1m{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.imagenMona_img2m{
+    position: relative;
+    top: 160px;
+    left: -10px;
+    height: 150px;
+    width: 200px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 25px;
+    
+}
+
+.img2m{
+    width: 200px;
+}
+
+.imagenMona_img2m > .img2m{
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.imagenMona_img3m{
+    position: absolute;
+    left: 210px;
+    bottom: 56px;
+    width: 200px;
+}
+
+.img3m{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#caja1_2{
+    position: relative;
+    float: right;
+}
+
+.descripcion_textomona{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+.descripcion_fechamona{
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+}
+
+.descripcion_parrafomona{
+    position: absolute;
+    top: 140px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#caja2{
+    float: left;
+}
+
+.descripcion_logotimiza{
+    width: 100px;
+}
+
+.logotimiza{
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion_imagenesTimiza{
+    position: relative;
+    left: 40px;
+    width: 440px;
+    height: 350px;
+}
+
+.imagenTimiza_img1t{
+    position: absolute;
+    width: 200px;
+    left: 215px;
+}
+
+.img1t{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.imagenTimiza_img2t{
+    position: absolute;
+    width: 200px;
+    left: 215px;
+    top: 160px;
+}
+
+.img2t{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.imagenTimiza_img3t{
+    position: absolute;
+    top: 20px;
+    width: 200px;
+
+}
+
+.img3t{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#caja2_2{
+    position: relative;
+    float: right;
+}
+
+.descripcion_tituloTimiza{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+.descripcion_fechaTimiza{
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+}
+
+.descripcion_parrafoTimiza{
+    position: absolute;
+    top: 140px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#caja3{
+    float: left;
+}
+
+.descripcion_logolamesa{
+    width: 100px;
+}
+
+.logolamesa{
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion_imagenesLamesa{
+    position: relative;
+    left: 40px;
+    width: 440px;
+    height: 350px;
+}
+
+.imagenTimiza_img1l{
+    position: absolute;
+    top: 30px;
+    left: 215px;
+    width: 200px;
+}
+
+.img1l{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.imagenTimiza_img2l{
+    position: absolute;
+    width: 200px;
+}
+
+.img2l{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.imagenTimiza_img3l{
+    position: absolute;
+    top: 170px;
+    width: 200px;
+}
+
+.img3l{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#caja3_2{
+    position: relative;
+    float: right;
+}
+
+.descripcion_tituloLamesa{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+.descripcion_fechaLamesa{
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+}
+
+.descripcion_parrafoLamesa{
+    position: absolute;
+    top: 140px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#caja4{
+    float: left;
+}
+
+.descripcion_logofunsa{
+    width: 100px;
+}
+
+.logofunsa{
+    width:100%;
+    height: 100%;
+}
+
+.descripcion_imagenesFunsa{
+    position: relative;
+    left: 40px;
+    width: 440px;
+    height: 350px;
+}
+
+.imagenFunsa_img1f{
+    position: absolute;
+    top: 165px;
+    width: 200px;
+}
+
+.img1f{
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+}
+
+.imagenFunsa_img2f{
+    position: absolute;
+    left: 220px;
+    top: 30px;
+    width: 200px;
+}
+
+.img2f{
+    width:100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.imagenFunsa_img3f{
+    position: absolute;
+    width: 200px;
+}
+
+.img3f{
+    width:100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#caja4_2{
+  position: relative;
+  float: right;
+}
+
+.descripcion_tituloFunsa{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+.descripcion_fechaFunsa{
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+}
+
+.descripcion_parrafoFunsa{
+    position: absolute;
+    top: 160px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#caja5{
+    float: left;
+}
+
+.descripcion_logoGuatavita{
+    width: 100px;
+}
+
+.logoGuatavita{
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion_imagenesGuatavita{
+    position: relative;
+    left: 40px;
+    width: 440px;
+    height: 390px;
+}
+
+.imagenGuatavita_img1g{
+   position: absolute;
+   top: 200px;
+   width: 200px;
+}
+
+.img1g{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.imagenGuatavita_img2g{
+    position: absolute;
+    left: 210px;
+    width: 200px;
+ }
+ 
+ .img2g{
+   width: 100%;
+   height: 100%;
+   border-radius: 25px;
+ }
+
+ .imagenGuatavita_img3g{
+    position: absolute;
+    top: 160px;
+    left: 225px;
+    width: 170px;
+ }
+ 
+ .img3g{
+   width: 100%;
+   height: 100%;
+   border-radius: 25px;
+ }
+
+ .imagenGuatavita_img4g{
+    position: absolute;
+    top: 35px;
+    width: 200px;
+ }
+ 
+ .img4g{
+   width: 100%;
+   height: 100%;
+   border-radius: 25px;
+ }
+ 
+#caja5_2{
+    float: right;
+    position: relative;
+}
+
+.descripcion_tituloGuatavita{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+.descripcion_fechaGuatavita{
+    position: absolute;
+    top: 75px;
+    font-size: 20px;
+}
+
+.descripcion_parrafoGuatavita{
+    position: absolute;
+    top: 150px;
+    font-size: 21px;
+    text-align: center;
+}
+
+#caja6{
+    float: left;
+}
+
+.descripcion_logoLacalera{
+    width: 100px;
+}
+
+.logoLacalera{
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion_imagenesLacalera{
+    position: relative;
+    left: 40px;
+    width: 440px;
+    height: 390px;
+}
+
+.imagenLacalera_img1la{
+    position: absolute;
+    top: 40px;
+    width: 200px;
+
+}
+
+.img1la{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.imagenLacalera_img2la{
+    position: absolute;
+    top: 40px;
+    left: 215px;
+    width: 200px;
+
+}
+
+.img2la{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#caja6_2{
+    position: relative;
+    float: right;
+}
+
+.descripcion_tituloLacalera{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+.descripcion_fechaLacalera{
+    position: absolute;
+    top: 75px;
+    font-size: 20px;
+}
+
+.descripcion_parrafoLacalera{
+    position: absolute;
+    top: 150px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#caja7{
+    float: left;
+}
+
+.descripcion_logoZoo{
+   width: 100px;
+}
+
+.logoZoo{
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion_imagenesZoo{
+    position: relative;
+    left: 40px;
+    width: 440px;
+    height: 390px;
+}
+
+.imagenesZoo_img1z{
+    position: absolute;
+    top: 28px;
+    width: 200px;
+}
+
+.img1z{
+   width: 100%;
+   height: 100%;
+   border-radius: 25px;
+}
+
+.imagenesZoo_img2z{
+    position: absolute;
+    left: 215px;
+    width: 200px;
+}
+
+.img2z{
+   width: 100%;
+   height: 100%;
+   border-radius: 25px;
+}
+
+.imagenesZoo_img3z{
+    position: absolute;
+    left: 215px;
+    top: 160px;
+    width: 200px;
+}
+
+.img3z{
+   width: 100%;
+   height: 100%;
+   border-radius: 25px;
+}
+
+#caja7_2{
+    position: relative;
+    float: right;
+}
+
+.descripcion_tituloZoo{
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+.descripcion_fechaZoo{
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+}
+
+.descripcion_parrafoZoo{
+    position: absolute;
+    top: 160px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#caja8{
+    position: relative;
+    float: left;
+}
+
+.descripcion_logoTequendama{
+    position: relative;
+   width: 100px;
+}
+
+.logoTequendama{
+   width: 100%;
+   height: 100%;
+}
+
+.descripcion_imagenesTequendama{
+   position: relative;
+   left: 40px;
+   width: 440px;
+   height: 390px;
+}
+
+.imagenesTequendama_img1te{
+    position: absolute;
+    left: 85px;
+    width: 250px;
+  
+}
+.img1te{
+   width: 100%;
+   height: 100%;
+   border-radius: 25px ;
+}
+
+.imagenesTequendama_img2te{
+    position: relative;
+    top: 180px;
+    height: 150px;
+    width: 200px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 25px;
+   
+ }
+ .img2te{
+    width: 200px;
+ }
+
+ .imagenesTequendama_img2te > .img2te{
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -80%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+ }
+
+ .imagenesTequendama_img3te{
+    position: relative;
+    top: 22px;
+    left: 220px;
+    height: 150px;
+    width: 200px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 25px;
+ }
+
+ .img3te{
+    width: 200px;
+ }
+
+ .imagenesTequendama_img3te > .img3te{
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#caja8_2{
+    position: relative;
+    float: right;
+}
+
+.descripcion_tituloTequendama{
+    position: absolute;
+    top: 12px;
+    left: 120px;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+.descripcion_fechaTequendama{
+    position: absolute;
+    top: 90px;
+    font-size: 20px;
+}
+
+.descripcion_parrafoTequendama{
+    position: absolute;
+    top: 180px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+footer{
+    clear: both;
+}

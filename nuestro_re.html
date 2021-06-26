@@ -5,36 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./CSS/estilo.css">
     <title>Nuestros recorridos</title>
 </head>
 <body>
+    <h6><a href="#imagen_menu">menu</a></h6>
     <header class="header">
         <div class="div_titulo">
-            <img class="imagen_titulo_header" src="./Imagenes_de_diseño/titulo1.png" alt="imagen_titulo"> 
+            <img class="imagen_titulo_header" id="imagen_menu" src="./Imagenes_de_diseño/titulo1.png" alt="imagen_titulo"> 
          </div>
     </header>
     <section class="section_header"></section>
     <main class="main_principal">
-        <section class="fondo_pag"> 
+        <section class="fondo_pag" > 
             <div class="menu_recorridos">
                <div class="menu_recorridos_imagen"><img class="cundinamarca"   src="./Imagenes_de_diseño/cundinamarca.png" alt="">
                </div>
                <div class="menu_recorridos_lista">
                        <ul>
-                           <li class="menu_recorridos_lista_il"><img class ="logos" src="./Imagenes_de_diseño/logo6.png" alt="logo6"> Mona pizza</li>
-                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo2.png" alt="logo2"> Parque timiza</li>
-                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo5.png" alt="logo5"> La mesa</li>
-                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo5.png" alt="logo5"> Funsa</li>
-                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo1.png" alt="logo1"> Guatavita</li>
-                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo4.png" alt="logo4"> La calera</li>
+                           <li class="menu_recorridos_lista_il"><img class ="logos" src="./Imagenes_de_diseño/logo6.png" alt="logo6"> <a class="click_lista" href="#titulo1"> Mona pizza </a><a href="imagen_menu"></a></li>
+                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo2.png" alt="logo2"> <a class="click_lista" href="#titulo2"> Parque timiza </a></li>
+                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo5.png" alt="logo5"> <a class="click_lista" href="#titulo3">La mesa </a></li>
+                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo5.png" alt="logo5"> <a class="click_lista" href="#titulo4">Funsa </a></li>
+                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo1.png" alt="logo1"> <a class="click_lista" href="#titulo5"> Guatavita </a></li>
+                           <li class="menu_recorridos_lista_il"><img class="logos" src="./Imagenes_de_diseño/logo4.png" alt="logo4"> <a class="click_lista" href="#titulo6">La calera</a></li>
                        </ul>
                </div> 
                <div class = "menu_recorridos_lista2">
                       <ul>
-                           <li class="menu_recorridos_lista_il"><img class ="logos" src="./Imagenes_de_diseño/logo1.png" alt="logo1">Salto del tequendama</li>
-                           <li class="menu_recorridos_lista_il"><img class ="logos" src="./Imagenes_de_diseño/logo3.png" alt="logo1">Zoologico santa cruz</li>
+                           <li class="menu_recorridos_lista_il"><img class ="logos" src="./Imagenes_de_diseño/logo1.png" alt="logo1"> <a class="click_lista" href="#titulo7">Salto del tequendama</a></li>
+                           <li class="menu_recorridos_lista_il"><img class ="logos" src="./Imagenes_de_diseño/logo3.png" alt="logo1"> <a class="click_lista" href="#titulo8">Zoologico santa cruz</a></li>
                       </ul> 
               </div>  
          </div>
@@ -58,7 +59,7 @@
                     </div>
             </div>       
             <div class="descripcion" id="caja1_2">
-                <h3 class="descripcion_textomona">Mona Pizza</h3>
+                <h3 class="descripcion_textomona" id="titulo1">Mona Pizza</h3>
                 <h4 class="descripcion_fechamona">07/02/2021</h4>   
                 <p class="descripcion_parrafomona">Acá comienza nuestro recorrido, fue nuestro primer encuentro,  
                     estaba algo nervioso de conocerla cuando llegue a recogerla pero más que nerviosos 
@@ -85,7 +86,7 @@
                 </div>
             </div>
             <div class="descripcion" id="caja2_2">
-                <h3 class="descripcion_tituloTimiza">Parque Timiza</h3>
+                <h3 class="descripcion_tituloTimiza" id="titulo2">Parque Timiza</h3>
                 <h4 class="descripcion_fechaTimiza">14/02/2021</h4>   
                 <p class="descripcion_parrafoTimiza">Nuestro segundo encuentro fue en este bonito parque, en donde tenía 
                 un lago no muy grande, hacia algo de frio y una de las cosas más chistosas es que 
@@ -111,7 +112,7 @@
                 </div>
             </div>
             <div class="descripcion" id="caja3_2">
-                <h3 class="descripcion_tituloLamesa">La Mesa</h3>
+                <h3 class="descripcion_tituloLamesa" id="titulo3">La Mesa</h3>
                 <h4 class="descripcion_fechaLamesa">20/02/2021</h4>   
                 <p class="descripcion_parrafoLamesa"> Este día fue la primera vez que salimos a rodar con el grupo de
                       moteros, conociendo el recorrido hacia la mesa aunque ya se ponía de noche, 
@@ -137,7 +138,7 @@
             </div>
             </div>
             <div class="descripcion" id="caja4_2">
-                <h3 class="descripcion_tituloFunsa">Funsa</h3>
+                <h3 class="descripcion_tituloFunsa" id="titulo4">Funsa</h3>
                 <h4 class="descripcion_fechaFunsa">07/03/2021</h4>   
                 <p class="descripcion_parrafoFunsa"> Fuimos a este municipio al cual nunca habíamos ido,
                      entramos a un sitio de comidas rápidas, muy bonito la verdad, 
@@ -165,7 +166,7 @@
                 </div>
             </div>
             <div class="descripcion" id="caja5_2" >
-                <h3 class="descripcion_tituloGuatavita">Guatavita</h3>
+                <h3 class="descripcion_tituloGuatavita" id="titulo5">Guatavita</h3>
                 <h4 class="descripcion_fechaGuatavita">28/02/2021</h4>  
                 <p class="descripcion_parrafoGuatavita"> Este ha sido uno de lugares que más hermosos que hemos
                      visitado hasta el momento, es especial para mí, porque?? … aquí fue donde 
@@ -193,7 +194,7 @@
                 </div>
             </div >
             <div class="descripcion" id="caja6_2">
-                <h3 class="descripcion_tituloLacalera">La calera</h3>
+                <h3 class="descripcion_tituloLacalera" id="titulo6">La calera</h3>
                 <h4 class="descripcion_fechaLacalera">14/03/2021</h4>  
                 <p class="descripcion_parrafoLacalera"> Su primera visita a mi dulce hogar,
                      le presente a mis padres en aquel día lo cual mis padres se llevaron una buena 
@@ -219,7 +220,7 @@
                   </div>
                 </div>
                 <div class="descripcion" id="caja7_2">
-                    <h3 class="descripcion_tituloZoo">Zoologico Santa Cruz</h3>
+                    <h3 class="descripcion_tituloZoo" id="titulo8">Zoologico Santa Cruz</h3>
                     <h4 class="descripcion_fechaZoo">28/03/2021</h4>  
                     <p class="descripcion_parrafoZoo"> Fuimos al zoológico de santa cruz, 
                         nos dio un poco de lastima ver los animales ya que no tienen suficiente
@@ -246,7 +247,7 @@
                     </div>
                 </div>
                 <div class="descripcion" id="caja8_2">
-                    <h3 class="descripcion_tituloTequendama">Salto del Tequendama</h3>
+                    <h3 class="descripcion_tituloTequendama" id="titulo7">Salto del Tequendama</h3>
                     <h4 class="descripcion_fechaTequendama">28/03/2021</h4>  
                     <p class="descripcion_parrafoTequendama"> De paso al zoológico pasamos por el salto del Tequendama,
                          una linda vista que mi amor no había visto durante el día, por suerte hacia buen clima
